@@ -23,9 +23,17 @@ body {
 
 #headingGroup span {
     color: #ea1c2c;
+    font-size: 1.5rem;
 }
 
 #headingGroup h1 {
     font-weight: 200;
     font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 3rem;
+        font-weight: 200;
+    }
 }

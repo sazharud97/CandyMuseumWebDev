@@ -1,5 +1,5 @@
 body {
-    background: #f5d9df;
+    background: #ffbecc;
     font-family: "Nunito";
 }
 
@@ -29,6 +29,7 @@ body {
 #headingGroup h1 {
     font-weight: 200;
     font-size: 4rem;
+    color: #c2ebf9;
 }
 
 @media (max-width: 1200px) {

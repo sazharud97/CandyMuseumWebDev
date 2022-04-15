@@ -68,14 +68,17 @@
     <!--Second image section-->
     <section class="container-fluid px-0">
         <div class="row align-items-center">
-            <div class="col-md-6">
+            <!--Img displays 1st on windows medium and larger, 2nd otherwise-->
+            <div class="col-md-6 order-2 order-md-1">
                 <img src="imgs/milk.png" alt="" class="img-fluid">
             </div>
-            <div class="col-md-6 text-center">
+            <!--Text displays 2nd on windows medium and larger, 1st otherwise-->
+            <div class="col-md-6 text-center order-1 order-md-2">
                 <!--Nested row to add more padding on all sides of the body content-->
                 <div class="row justify-content-center">
                     <div class="col-10 col-lg-8">
                         <h2 class="text-center">MUSEUM OF CANDY</h2>
+                        <!--image dissappears once window gets smaller than "lg"-->
                         <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
                         <p class="lead">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus, unde amet,

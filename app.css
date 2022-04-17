@@ -10,9 +10,10 @@ h2 {
 }
 
 .lavender p {
-    color: #cd98b1;
+    color: #c86c84;
     font-weight: 200;
     font-size: 1.125rem;
+    line-height: 2;
 }
 
 #mainNavbar .navbar-brand {

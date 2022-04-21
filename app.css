@@ -51,14 +51,17 @@ h2 {
 #mainNavbar .navbar-brand {
     color: #ea1c2c;
     font-size: 1.5rem;
+    font-weight: 300;
 }
 
 #mainNavbar .nav-link {
     color: white;
+    font-weight: 300;
 }
 
 #mainNavbar .nav-link:hover {
     color: #ea1c2c;
+    font-weight: 300;
 }
 
 #mainNavbar {
@@ -82,7 +85,8 @@ h2 {
 }
 
 .navbar.scrolled {
-    background: rgb(222, 192, 222);
+    background: #baeeff;
+    transition: background 1s;
 }
 
 @media (max-width: 1200px) {

@@ -1,5 +1,5 @@
 body {
-    background: #ffbecc;
+    background: #ffcad1;
     font-family: "Nunito";
 }
 
@@ -23,7 +23,7 @@ h2 {
 }
 
 .gumball p {
-    color: #00b7b5;
+    color: #53c1c0;
     font-weight: 200;
     font-size: 1.125rem;
     line-height: 2;
@@ -31,6 +31,19 @@ h2 {
 
 .gumball h2 {
     color: #ec9291;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.mint p {
+    color: #ebf7f5;
+    font-weight: 200;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.mint h2 {
+    color: #00d6e5;
     font-weight: 300;
     font-size: 2.5rem;
 }
@@ -61,7 +74,7 @@ h2 {
 #headingGroup h1 {
     font-weight: 200;
     font-size: 4rem;
-    color: #c2ebf9;
+    color: #baeeff;
 }
 
 .img-fluid img {

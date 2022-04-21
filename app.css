@@ -81,7 +81,7 @@ h2 {
     width: 100%;
 }
 
-.navbar .scrolled {
+.navbar.scrolled {
     background: rgb(222, 192, 222);
 }
 

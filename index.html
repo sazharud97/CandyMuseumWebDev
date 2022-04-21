@@ -113,6 +113,30 @@
                 <img src="imgs/gumball.png" alt="" class="img-fluid">
             </div>
         </div>
+        <!--re-duplicated first row so that we could keep the ordering.-->
+        <div class="row align-items-center">
+            <!--Img displays 1st on windows medium and larger, 2nd otherwise-->
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="imgs/mints.jpg" alt="" class="img-fluid">
+            </div>
+            <!--Text displays 2nd on windows medium and larger, 1st otherwise-->
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <!--Nested row to add more padding on all sides of the body content-->
+                <div class="row justify-content-center mint">
+                    <div class="col-10 col-lg-8">
+                        <h2 class="text-center">MUSEUM OF CANDY</h2>
+                        <!--image dissappears once window gets smaller than "lg"-->
+                        <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                        <p class="lead">
+                            This project was made entirely via HTML, CSS, and bootstrap as part of a Web Development
+                            course I took. The first priority was responsive design, which you can see when you shrink
+                            or scale the window in any way. The website is designed to be aesthetically pleasing to view
+                            from any device and screen size available.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!--Bootstrap JS script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

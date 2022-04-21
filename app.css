@@ -90,7 +90,7 @@ h2 {
     transition: background 850ms;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1270px) {
     #headingGroup h1 {
         font-size: 3rem;
         font-weight: 200;

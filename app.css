@@ -67,6 +67,7 @@ h2 {
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 200;
+    transition: background 850ms;
 }
 
 #headingGroup span {
@@ -86,7 +87,7 @@ h2 {
 
 .navbar.scrolled {
     background: #baeeff;
-    transition: background 1s;
+    transition: background 850ms;
 }
 
 @media (max-width: 1200px) {

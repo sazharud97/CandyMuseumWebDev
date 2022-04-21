@@ -45,6 +45,10 @@ h2 {
     color: #c2ebf9;
 }
 
+.img-fluid img {
+    width: 100%;
+}
+
 @media (max-width: 1200px) {
     #headingGroup h1 {
         font-size: 3rem;

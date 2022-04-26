@@ -36,7 +36,7 @@ h2 {
 }
 
 .mint p {
-    color: #ebf7f5;
+    color: white;
     font-weight: 200;
     font-size: 1.125rem;
     line-height: 2;
@@ -78,7 +78,7 @@ h2 {
 #headingGroup h1 {
     font-weight: 200;
     font-size: 4rem;
-    color: #baeeff;
+    color: #a2daed;
 }
 
 .img-fluid img {
